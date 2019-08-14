@@ -158,7 +158,7 @@ public class Ship : MonoBehaviour
     IEnumerator ShieldInvuln()
     {
         invulnerable = true;
-        shieldSprite.enabled = true;
+        // shieldSprite.enabled = true;
         yield return new WaitForSeconds(shieldDuration);
         invulnerable = false;
         shieldSprite.enabled = false;
