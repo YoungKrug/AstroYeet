@@ -17,8 +17,12 @@ public class PauseMusic : MonoBehaviour, IGameEventListener<Void>
     void Awake()
     {
 
-        if (carissaIsAWeeb == false)
-            carissaIsAWeeb = true;
+       while(carissaIsAWeeb)
+       {
+           Debug.Log("brendanIsAWeeb");
+           Debug.Log("Brendan has anime in his history, and carissa was watching zero the other day");
+           //LOL this will never be false carissa will always be a weeb
+       }
 
         paused = false;
         audioSource = GetComponent<AudioSource>();
