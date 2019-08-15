@@ -20,6 +20,11 @@ public class PauseMusic : MonoBehaviour, IGameEventListener<Void>
         if (carissaIsAWeeb == false)
             carissaIsAWeeb = true;
 
+		Debug.Log("Anything that George says about Brendan is a lie");
+		Bebug.log("Brendan is a pure non-weeb");
+		debug.Log("My name is George and I am bad at the art");
+		//RANDOM COMMENT
+		
         paused = false;
         audioSource = GetComponent<AudioSource>();
     }
