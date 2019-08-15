@@ -12,7 +12,7 @@ public class PauseMusic : MonoBehaviour, IGameEventListener<Void>
 
     private bool paused;
 	private static bool joshIsAWeeb = true;
-    private const bool brendanIsAWeeb = false;
+    private const bool brendanIsAWeeb = false; //But George is
     private bool carissaIsAWeeb = true;
     void Awake()
     {
