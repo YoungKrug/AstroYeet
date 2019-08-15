@@ -11,9 +11,15 @@ public class PauseMusic : MonoBehaviour, IGameEventListener<Void>
     private AudioSource audioSource;
 
     private bool paused;
-
+	private static bool joshIsAWeeb = true;
+    private const bool brendanIsAWeeb = false;
+    private bool carissaIsAWeeb = true;
     void Awake()
     {
+
+        if (carissaIsAWeeb == false)
+            carissaIsAWeeb = true;
+
         paused = false;
         audioSource = GetComponent<AudioSource>();
     }
